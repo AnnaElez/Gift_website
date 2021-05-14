@@ -1,0 +1,316 @@
+@media (max-width: 1224px){
+    .container{
+        max-width: 970px;
+    }
+
+    .button{
+        width: 160px;
+        padding: 12px;
+    }
+
+    /* Blocks img/text */
+
+    .main_block-img img{
+        width: 100%;
+    }
+
+    .main_block-words{
+        padding: 100px;
+        width: 400px;
+    }
+
+    .main_block-words h1{
+        font-size: 50px;
+    }
+
+    .button_blocks{
+        padding: 17px 37px;
+    }
+
+    /* White block */
+
+    .type{
+        width: 230px;
+        padding-bottom: 20px;
+        margin-right: 15px;
+    }
+    
+    .holidays_types h2{
+        font-size: 18px;
+        margin-bottom: 55px;
+    }
+
+    /* Orange block */
+
+    .art h1,h2{
+        padding-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .art{
+        padding: 70px;
+    }
+
+    /* White block */
+
+    .white_block{
+        padding: 80px;
+    }
+
+    .white_block h1{
+        font-size: 28px;
+    }
+
+    .white_block h1{
+        margin-bottom: 20px;
+    }
+
+
+    /* Grey block */
+
+    .grey_block h1{
+        font-size: 43px;
+        margin-bottom: 30px;
+    }
+
+    .info_block{
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 1024px){
+
+    .container{
+        max-width: 770px;
+    }
+
+    .button{
+        width: 140px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    /* Blocks img/text */
+
+    .main_block-words{
+        padding: 65px;
+        width: 400px;
+        margin: auto;
+    }
+
+    .main_block-words h1{
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .main_block-words p{
+        font-size: 17px;
+        width:350px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    
+    /* Holidays */
+
+    .holidays{
+        padding: 70px;
+    }
+
+    .holidays h1{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .holidays h2{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .type:hover{
+        box-shadow: 3px 6px rgb(216, 216, 216);
+    }
+
+    .type h2{
+        margin: 25px;
+        font-size: 18px;
+    }
+
+    .art{
+        width: 400px;
+        padding: 50px 50px 50px 0;
+    }
+
+
+    /* Grey block */
+
+    
+    .grey_block article{
+        padding:0 80px;
+        margin: auto;
+    }
+
+    .grey_block a{
+        font-size: 15px;
+    }
+
+    .grey_block h1{
+        font-size: 30px;
+    }
+
+    .grey_block img{
+        width: 300px;
+    }
+
+    /* Info block */
+
+    .info_block{
+        padding:50px 0;
+        margin-bottom: 0;
+    }
+
+
+    /* Footer */
+
+    .footer_inner{
+        margin-left: 80px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .container{
+        max-width: 570px;
+    }
+
+    .button{
+        width: 130px;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .main_block-words{
+        padding: 35px;
+        width: 300px;
+    }
+
+    .main_block-words p{
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .main_block-words h1{
+        font-size: 25px;
+        width: 300px;
+        margin-bottom: 0;
+    }
+
+    .main_block-words h2{
+        font-size: 25px;
+        width: 300px;
+        margin-bottom: 0;
+    }
+
+    .button_blocks{
+        padding: 17px 20px;
+    }
+
+    .holidays{
+        padding:50px;
+    }
+
+    .holidays h1{
+        font-size: 25px;
+        margin-bottom: 13px;
+    }
+
+    .holidays h2{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .type:hover{
+        box-shadow: 2px 4px rgb(216, 216, 216);
+    }
+
+    .type h2{
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    .type a{
+        margin: 10px;
+        font-size: 12px;
+        margin-bottom:0;
+    }
+
+    .art{
+        width: 500px;
+        margin-right: 50px;
+        padding: 50px 50px 50px 0;
+    }
+
+    .art h1,h2{
+        font-size: 25px;
+    }
+
+    .white_block{
+        padding:50px 50px 25px 50px;
+    }
+
+    /* Grey block */
+
+    .grey_block img{
+        width: 250px;
+    }
+
+    .grey_block article{
+        width: 250px;
+        padding: 0;
+    }
+
+    .grey_block a{
+        font-size: 15px;
+    }
+
+    .grey_block h1{
+        font-size: 22px;
+    }
+
+    /* Info block */
+
+    .info_block{
+        padding:30px 0;
+        height: 400px;
+    }
+
+    .info p{
+        font-size: 16px;
+        line-height: 23px;
+        margin-bottom: 30px;
+    }
+
+    .info a{
+        font-size: 14px;
+    }
+
+    .info article{
+        padding: 25px;
+    }
+
+    /* Footer */
+    .footer_inner{
+        margin-left: 35px;
+        padding-bottom: 40px;
+    }
+
+    .footer_inner a{
+        font-size: 15px;
+    }
+
+    .footer .logo{
+        margin: 0 100px;
+    }
+
+}
