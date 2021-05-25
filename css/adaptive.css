@@ -1,82 +1,4 @@
-@media (max-width: 1224px){
-    .container{
-        max-width: 970px;
-    }
 
-    .button{
-        width: 160px;
-        padding: 12px;
-    }
-
-    /* Blocks img/text */
-
-    .main_block-img img{
-        width: 100%;
-    }
-
-    .main_block-words{
-        padding: 100px;
-        width: 400px;
-    }
-
-    .main_block-words h1{
-        font-size: 50px;
-    }
-
-    .button_blocks{
-        padding: 17px 37px;
-    }
-
-    /* White block */
-
-    .type{
-        width: 230px;
-        padding-bottom: 20px;
-        margin-right: 15px;
-    }
-    
-    .holidays_types h2{
-        font-size: 18px;
-        margin-bottom: 55px;
-    }
-
-    /* Orange block */
-
-    .art h1,h2{
-        padding-bottom: 10px;
-        font-size: 28px;
-    }
-
-    .art{
-        padding: 70px;
-    }
-
-    /* White block */
-
-    .white_block{
-        padding: 80px;
-    }
-
-    .white_block h1{
-        font-size: 28px;
-    }
-
-    .white_block h1{
-        margin-bottom: 20px;
-    }
-
-
-    /* Grey block */
-
-    .grey_block h1{
-        font-size: 43px;
-        margin-bottom: 30px;
-    }
-
-    .info_block{
-        padding-bottom: 0;
-    }
-}
 
 @media (max-width: 1024px){
 
@@ -93,9 +15,11 @@
     /* Blocks img/text */
 
     .main_block-words{
-        padding: 65px;
-        width: 400px;
-        margin: auto;
+        margin: 0 auto;
+    }
+
+    .main_block-words article{
+        width: 350px;
     }
 
     .main_block-words h1{
@@ -106,7 +30,6 @@
 
     .main_block-words p{
         font-size: 17px;
-        width:350px;
         line-height: 28px;
         margin-bottom: 40px;
     }
@@ -127,11 +50,11 @@
         margin-bottom: 40px;
     }
 
-    .type:hover{
-        box-shadow: 3px 6px rgb(216, 216, 216);
+    .holiday_type{
+       width: 177px;
     }
 
-    .type h2{
+    .holiday_type h2{
         margin: 25px;
         font-size: 18px;
     }
@@ -143,12 +66,6 @@
 
 
     /* Grey block */
-
-    
-    .grey_block article{
-        padding:0 80px;
-        margin: auto;
-    }
 
     .grey_block a{
         font-size: 15px;
@@ -164,19 +81,72 @@
 
     /* Info block */
 
-    .info_block{
-        padding:50px 0;
-        margin-bottom: 0;
+    .info{
+        margin-bottom: 100px;
     }
 
+    .info_block{
+        padding-top:50px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+@media (max-width: 992px){
+    .container{
+        max-width: 770px;
+    }
+
+    .button{
+        width: 123px;
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    .button_header{
+        width: 100px;
+    }
+
+    .header .logo img{
+        width: 80%;
+    }
+
+    /* Orange block */
+
+    .art h1, .art h2{
+        font-size: 28px;
+    }
+
+    /* White block */
+
+    .about_blog{
+        padding: 70px;
+    }
+
+    /* Info block */
+
+    .info h1{
+        font-size: 21px;
+    }
+
+    .info p{
+        font-size: 15px;
+    }
 
     /* Footer */
 
     .footer_inner{
-        margin-left: 80px;
+        padding-bottom: 41px;
     }
 
+    .media_contact{
+        padding: 41px;
+    }
 }
+
+
+
 
 @media (max-width: 768px){
 
@@ -190,35 +160,32 @@
         font-size: 13px;
     }
 
-    .main_block-words{
-        padding: 35px;
+    .main_block-words article{
         width: 300px;
     }
 
     .main_block-words p{
         font-size: 13px;
-        width: 300px;
     }
 
     .main_block-words h1{
         font-size: 25px;
-        width: 300px;
         margin-bottom: 0;
     }
 
     .main_block-words h2{
         font-size: 25px;
-        width: 300px;
         margin-bottom: 0;
-    }
+    } 
 
     .button_blocks{
-        padding: 17px 20px;
+        padding: 10px;
     }
 
     .holidays{
         padding:50px;
     }
+
 
     .holidays h1{
         font-size: 25px;
@@ -230,16 +197,16 @@
         margin-bottom: 30px;
     }
 
-    .type:hover{
+    .holiday_type:hover{
         box-shadow: 2px 4px rgb(216, 216, 216);
     }
 
-    .type h2{
+    .holiday_type h2{
         margin: 10px;
         font-size: 15px;
     }
 
-    .type a{
+    .holiday_type a{
         margin: 10px;
         font-size: 12px;
         margin-bottom:0;
@@ -255,7 +222,7 @@
         font-size: 25px;
     }
 
-    .white_block{
+    .about_blog{
         padding:50px 50px 25px 50px;
     }
 
